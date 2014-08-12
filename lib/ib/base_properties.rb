@@ -62,6 +62,8 @@ module IB
 
     included do
 
+      attr_protected
+
       after_initialize :set_attribute_defaults
 
       ### Class macros
